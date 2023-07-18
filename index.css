@@ -94,6 +94,7 @@
 .goat-section{
     width: 100% auto;
     height: 645px;
+    margin-bottom: 55px;
 }
 
 
@@ -120,6 +121,7 @@
     display: flex;
     gap: 8px;
 }
+
 h3{
     color: #0B0223;
     text-align: left;
@@ -178,6 +180,14 @@ p{
 .GOAT-container .goat-image img{
     width: 100%;
 }
+
+/*this is we are gamer css*/
+
+
+
+
+
+
 
 
 
