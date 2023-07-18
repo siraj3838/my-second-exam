@@ -1,11 +1,13 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
-body{
+
+/*this is top logo and nav css*/
+
+.header{
     box-sizing: border-box;
     max-height: 1440px;
     margin: 0 auto;
-    border: 5px solid yellow;
 }
 
 
@@ -13,11 +15,11 @@ body{
     max-width: 1440px;
     height: auto;
     margin: 0 auto;
-    width: 100%;
     height: 130px;
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .topnav-container .gamer-logo-content{
@@ -26,11 +28,10 @@ body{
     justify-content: left;
     align-items: center;
     gap: 20px;
-    border: 2px solid black;
 }
 .gamer-logo-content img{
     width: 100% auto;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .topnav-container .gamer-logo-content h1 .gamer-first-letter{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -40,11 +41,143 @@ body{
 }
 .topnav-container .gamer-logo-content h1{
     color: #0B0223;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 .topnav-container .gamer-list-content{
     width: 50%;
-    border:  2px solid blue;
+    display: flex;
+    gap: 32px;
+    justify-content: right;
+    align-items: center;
 }
+.gamerlist-item-three{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 0;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin-right: 20px;
+}
+.gamer-list-content .gamerlist-item  a{
+    text-decoration: none;
+}
+.gamerlist-item-three .list-item-inside-list img{
+    width: 100% auto;
+    margin-top: 5px;
+}
+.gamerlist-item-three .list-item-inside-list-one a{
+    text-decoration: none;
+    margin-left: 24px;
+}
+.list-item-inside-list-tiktok{
+    margin-right: 16px;
+}
+
+.gamerlist-item a, .list-item-inside-list-one a{
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+
+/*this is GOAT css*/
+
+.goat-section{
+    width: 100% auto;
+    height: 645px;
+}
+
+
+.GOAT-container{
+    max-width: 1640px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    gap: 68px;
+    justify-content: center;
+    align-items: center;
+}
+
+.goat-content{
+    background-image: url(images/Group\ 14.png);
+    background-position: 100%;
+    background-size: cover;
+    min-height: 645px;
+    background-repeat: no-repeat;
+    width: 50%;
+    text-align: left;
+}
+h3{
+    color: #0B0223;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+h2{
+    text-align: left;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+p{
+    color: #534C64;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+    border: 0;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-right: 10px;
+}
+.btn-primary-two{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    border: 0;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+.goat-content-inside{
+    padding-left: 50px;
+}
+
+.GOAT-container .goat-image{
+    width: 50%;
+    margin-right: 30px;
+}
+
+.GOAT-container .goat-image img{
+    width: 100%;
+}
+
+
+
+
+
+
 
