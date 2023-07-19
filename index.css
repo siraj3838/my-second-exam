@@ -335,7 +335,7 @@ p{
     justify-content: center;
     align-items: center;
     height: 80px;
-    width: 280px;
+    width: 260px;
 }
 #carton{
     color: #0B0223;
@@ -345,14 +345,19 @@ p{
     background-color: #FFF;
     text-align: center;
 }
-.carton-box6{
-    margin-left: 100px;
+.carton-container .carton-content .carton-box-6{
+    margin-left: 155px;
+}
+.carton-container .carton-content .carton-box-1{
+    margin-left: 90px;
 }
 
 .carton-content{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
     gap: 5px;
+    margin: 0 auto;
 }
 #carton:hover{
     border: 1px solid #FF42A5;
@@ -603,7 +608,7 @@ p{
         height: 80px;
         width: 100%;
     }
-    .carton-box6{
+    .carton-container .carton-content .carton-box-6{
         margin-left: 0;
     }
     .carton-container .carton-content #carton img{
@@ -613,6 +618,9 @@ p{
         color: #0B0223;
         font-size: 0.7rem;
         font-weight: 600;
+    }
+    .carton-container .carton-content .carton-box-1{
+        margin-left: 0px;
     }
 }
 
