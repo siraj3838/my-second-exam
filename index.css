@@ -320,7 +320,37 @@ p{
     padding-bottom: 24px;
 }
 
+/*this is carton sponsor section*/
+.carton-container{
+    min-height: 160px;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.carton-container .carton-content #carton img{
+    width: 60px;
+}
+.carton-box1,.carton-box2,.carton-box3,.carton-box4,.carton-box5,.carton-box6,.carton-box7,.carton-box8,.carton-box9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 280px;
+    border: 2px solid red;
+}
+#carton h6{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+.carton-box6{
+    margin-left: 100px;
+}
 
+.carton-content{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
