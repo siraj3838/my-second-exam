@@ -286,6 +286,7 @@ p{
 }
 .anniversary-image{
     width: 50%;
+    height: 700px;
 }
 .anniversary-image img{
     width: 634px;
@@ -401,7 +402,7 @@ p{
     }
     .GOAT-container .goat-image{
         width: 100%;
-        margin: 0 15px;
+        margin: 0;
     }
     .goat-content{
         width: 100%;
@@ -410,7 +411,7 @@ p{
         padding-top: 50px;
     }
     .goat-content-inside{
-        padding-left: 0;
+        padding-left: 0px;
     }
     h3,h2{
         margin: 0;
@@ -526,17 +527,19 @@ p{
         font-size: 0.8rem;
     }
     .anniversary-image{
-        margin-right: 20px;
+        width: 100%;
+        height: 500px;
     }
     .anniversary-image img{
-        width: 150%;
-        height: 50%;
+        width: 80%;
+        height: 60%;
+        margin-left: 83px;
     }
     .anniversary-second-image img{
-        width: 80%;
-        height: 40%;
-        margin-left: 65px;
-        margin-top: 145px;
+        width: 145px;
+        height: 160px;
+        margin-top: 160px;
+        margin-left: 170px;
     }
 }
 
