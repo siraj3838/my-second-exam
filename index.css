@@ -288,11 +288,11 @@ p{
     width: 50%;
     height: 700px;
 }
-.anniversary-image img{
+.anniversary-image>img{
     width: 634px;
     height: 650px;    
 }
-.anniversary-second-image img{
+.anniversary-second-image>img{
     width: 318px;
     height: 365px;
     position: relative;
@@ -517,6 +517,7 @@ p{
     }
     .anniversary-content{
         width: 100%;
+        margin-right: 30px;
     }
     .anniversary-headline, .anniversary-headline-firstline{
         text-align: center;
@@ -531,15 +532,15 @@ p{
         height: 500px;
     }
     .anniversary-image img{
-        width: 80%;
+        width: 90%;
         height: 60%;
-        margin-left: 83px;
+        margin-left: 50px;
     }
     .anniversary-second-image img{
-        width: 145px;
+        width: 150px;
         height: 160px;
         margin-top: 160px;
-        margin-left: 170px;
+        margin-left: 140px;
     }
 }
 
