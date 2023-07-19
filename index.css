@@ -414,9 +414,47 @@ p{
     font-weight: 600;
 }
 
+/*this is footer css*/
+
+.footer{
+    background: #0B0223;
+}
 
 
+.fot-container{
+    max-width: 1440px;
+    height: auto;
+    margin: 50px auto 0px auto;   
+}
 
+.fot-log-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100% auto;
+    padding-top: 120px;
+}
+.fot-image img{
+    width: 100%;
+}
+
+.fot-head .fot-first-letter{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.fot-head h1{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
 
 
