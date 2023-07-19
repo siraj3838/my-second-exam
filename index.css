@@ -263,6 +263,49 @@ p{
     margin-bottom: 24px;
 }
 
+/*this is funny video css*/
+.funny-container{
+    max-width: 1440px;
+    height: auto;
+    margin: 120px auto;
+    text-align: center;
+}
+.funny-container>.funn-blog-content{
+    text-align: center;
+}
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 450px;
+    gap: 24px;
+}
+.video-container.video-sector, .video-sectortwo, .video-sectorthree, .video-sectorfour img{
+    width: 100%;
+}
+.funny-header-content{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.funny-header-second-line{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.video-sector .video-down-blog{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+
+
+
 /*this is Instantly css*/
 .instantly-section{
     box-sizing: border-box;
@@ -550,6 +593,39 @@ p{
     .we-are-gamer-section{
         margin-top: 60px;
     }
+
+    .funny-container{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .funny-header-content{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .funny-container>.funn-blog-content{
+        font-size: 0.7rem;
+        margin-top: 7px;
+        margin-bottom: 40px;
+    }
+
+    .funny-header-second-line{
+        font-size: 1.5rem;
+    }
+    .video-container{
+        grid-template-columns: repeat(1,1fr);
+        height: 2000px;
+        gap: 0;
+    }
+    .video-sector .video-down-blog{
+        text-align: center;
+        font-size: 0.7rem;
+        padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
     .anniversary-container{
         flex-direction: column;
         gap: 10px;
