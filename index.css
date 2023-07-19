@@ -796,16 +796,17 @@ p{
         margin-left: 149px;
     }
     .carton-content{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 80px);
         padding: 10px;
+        margin-left: 100px;
     }
     .carton-container .carton-content>#carton {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         height: 80px;
-        width: 100%;
+        width: 50px;
     }
     .carton-container .carton-content .carton-box-6{
         margin-left: 0;
@@ -813,9 +814,9 @@ p{
     .carton-container .carton-content #carton img{
         width: 25px;
     }
-    #carton{
+    #carton h6{
         color: #0B0223;
-        font-size: 0.7rem;
+        font-size: 0.4rem;
         font-weight: 600;
     }
     .carton-container .carton-content .carton-box-1{
@@ -826,6 +827,28 @@ p{
     .list-container{
         flex-direction: column;
         gap: 30px;
+    }
+    .list-first-content,
+    .list-second-content{
+        gap: 10px;
+    }
+    .fot-last-list-first-content{
+        gap: 20px;
+    }
+    .fot-last-list-first-content li a{
+        font-size: 0.7rem;
+    }
+    .fot-last-list-second-content{
+        gap: 20px;
+    }
+    .fot-last-list-second-content li a{
+        font-size: 0.7rem;
+    }
+    .copyright-text{
+        font-size: 0.5rem;
+    }
+    #carton img{
+        width: 10px;
     }
 }
 
