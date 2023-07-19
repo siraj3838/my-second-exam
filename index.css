@@ -189,6 +189,7 @@ p{
     width: 100%;
 }
 
+
 /*this is we are gamer css*/
 .we-are-gamer-section{ 
     box-sizing: border-box;
@@ -396,7 +397,7 @@ p{
     .GOAT-container{
         flex-direction: column-reverse;
         gap: 0;
-        height: 650px;
+        height: 750px;
     }
     .GOAT-container .goat-image{
         width: 100%;
@@ -417,7 +418,7 @@ p{
     }
     h3{
         font-size: 1.5rem;
-        padding-top: 40px;
+        padding-top: 10px;
         padding-right: 15px;
     }
     h2{
@@ -427,7 +428,7 @@ p{
     .goat-content p{
         font-size: 0.7rem;
         margin: 0;
-        padding-left: 70px;
+        padding-left: 120px;
     }
     .goat-blog{
         padding-bottom: 20px;
@@ -443,8 +444,10 @@ p{
         gap: 5px;
         justify-content: center;
         margin-bottom: 0px;
+        padding-bottom: 40px;
     }
     .goat-section{
+        height: 750px;
         margin-bottom: 0;
     }
     
@@ -455,6 +458,7 @@ p{
         align-items: center;
         gap: 0px;
         text-align: center;
+        height: 450px;
     }
     .we-are-image{
         width: 100%;
@@ -464,11 +468,75 @@ p{
         width: 100%;
         text-align: center;
         margin-right: 0;
-        height: 200px;
+    }
+    
+    .we-game-header{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    .gamer-blog{
+        text-align: center;
+        font-size: 0.6rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+    .btn-primary-three{
+        padding: 10px 20px;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    .we-are-content .game-second-head{
+        text-align: center;
+        font-size: 0.9rem;
+        margin-bottom: 0px;
+    }
+    .game-last-head{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .we-are-gamer-section{
+        margin-top: 60px;
     }
     .anniversary-container{
         flex-direction: column;
         gap: 10px;
+        width: 410px;
+        justify-content: center;
+        height: 850px;
+        margin-top: 20px;
+    }
+    .anniversary-content{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .anniversary-content{
+        width: 100%;
+    }
+    .anniversary-headline, .anniversary-headline-firstline{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .anniversary-blog{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .anniversary-image{
+        margin-right: 20px;
+    }
+    .anniversary-image img{
+        width: 150%;
+        height: 50%;
+    }
+    .anniversary-second-image img{
+        width: 80%;
+        height: 40%;
+        margin-left: 65px;
+        margin-top: 145px;
     }
 }
 
