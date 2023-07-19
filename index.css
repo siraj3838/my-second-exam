@@ -457,10 +457,23 @@ p{
 }
 
 .list-container{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 60px;
     padding-top: 66px;
+}
+.list-first-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.list-second-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 .list-container li a{
     text-decoration: none; 
@@ -469,8 +482,67 @@ p{
     font-size: 1.1rem;
     font-weight: 600;
 }
+.list-container li, .fot-last-list-container li{
+    list-style: none;
+}
 
+.fot-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 66px;
+}
+.fot-icon-first-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.fot-icon-second-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.fot-icon-container a{
+    width: 50px;
+}
 
+.fot-last-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 74px;
+}
+.fot-last-list-first-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.fot-last-list-second-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.fot-last-list-container li a{
+    text-decoration: none; 
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.copyright-text{
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 130px; 
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 
 
