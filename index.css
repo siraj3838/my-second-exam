@@ -403,6 +403,12 @@ p{
     display: flex;
     justify-content: center;
 }
+#carton-one{
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+    color: #F948B2;
+    padding: 10px 20px;
+}
 .carton-container .carton-content .carton-box-6{
     margin-left: 155px;
 }
@@ -677,6 +683,7 @@ p{
         margin-bottom: 0;
     }
     
+    
     .we-are-container{
         flex-direction: column;
         max-width: 100%;
@@ -796,12 +803,12 @@ p{
         height: 400px;
     }
     .anniversary-image img{
-        width: 87%;
+        width: 76%;
         height: 60%;
         margin-left: 50px;
     }
     .anniversary-second-image img{
-        width: 140px;
+        width: 120px;
         height: 160px;
         margin-top: 160px;
         margin-left: 149px;
@@ -824,6 +831,36 @@ p{
     }
     .carton-container .carton-content #carton img{
         width: 25px;
+    }
+    #carton:hover{
+        border: 1px solid #FF42A5;
+        border-radius: 40px;
+        color: #F948B2;
+        padding: 5px 8px;
+    }
+    #carton-one:hover{
+        border: 1px solid #FF42A5;
+        border-radius: 40px;
+        color: #F948B2;
+        padding: 20px 40px;
+    }
+    #carton-one{
+        color: #0B0223;
+        font-size: 0.6rem;
+        font-weight: 600;
+        border: 0;
+        background-color: #FFF;
+        text-align: center;
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    #carton-one>img{
+        width: 30px;
+        height: 30px;
+
     }
     #carton h6{
         color: #0B0223;
