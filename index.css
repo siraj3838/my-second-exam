@@ -403,11 +403,12 @@ p{
     display: flex;
     justify-content: center;
 }
-#carton-one{
+#carton-one:hover{
     border: 1px solid #FF42A5;
     border-radius: 40px;
     color: #F948B2;
     padding: 10px 20px;
+    cursor: pointer;
 }
 .carton-container .carton-content .carton-box-6{
     margin-left: 155px;
@@ -424,6 +425,7 @@ p{
     border-radius: 40px;
     color: #F948B2;
     padding: 10px 20px;
+    cursor: pointer;
 }
 #carton h6:hover ::before{
     color: #0B0223;
@@ -561,6 +563,12 @@ p{
     font-weight: 500;
 }
 
+.list-first-content li a:hover{
+    color: #FF42A5;
+}
+.list-second-content li a:hover{
+    color: #FF42A5;
+}
 
 
 
